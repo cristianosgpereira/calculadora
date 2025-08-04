@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:black;
+    transition: background-color 7s ease-in-out; 
+
+}
+
+body:hover {
+    background-color:lightslategray ;
+}
+
+
+.titulo {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 2.2em;
+    border-radius: 12px;
+    border: 1px solid rgb(231, 216, 216);
+    box-shadow: 0px 0px 0px rgb(54, 48, 48);
+}
+
+input {
+    font-size: 25px;
+    border: none;
+    border: none;
+    outline: none;
+    background-color: #160c03;
+    color: white;
+    text-align: right;
+    padding: 20px;
+
+}
+
+
+#result {
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    margin: 10px 0px 0px 0px;
+    box-shadow: 2px 4px 8px black;
+    background-color: rgb(36, 34, 34);
+
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 600px;
+    border: 6px solid #160c03;
+
+}
+
+.button {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 50px);
+    gap: 6px;
+    border-radius: 15px;
+
+}
+
+#item {
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px black;
+
+}
+
+
+
+#item0 {
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px black;
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+#item0:hover {
+    cursor: pointer;
+}
+
+#itemIgual {
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px black;
+    grid-area: 4 / 4 / 6 / 5;
+}
+
+#itemIgual:hover {
+    cursor: pointer;
+}
+
+
+#item:hover {
+    cursor: pointer;
+}
+
+a {
+    font: 20px bolder;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#foto {
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+#foto:hover {
+    background-color: #4b634e;
+}
+
+.calculo {
+    background-color: lightslategray;
+}
+
+.calculo:hover {
+    background-color: rgb(54, 84, 114);
+}
+
+p {
+    color: white;
+    font-size: 1.6em;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+p:hover {
+    color: yellow;
+    
+}
